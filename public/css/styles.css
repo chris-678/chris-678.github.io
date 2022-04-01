@@ -1,0 +1,480 @@
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.navbar-nav {
+  color: yellow;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+}
+
+.home-img {
+  border-radius: 50%;
+  width: 450px;
+  height: 570px;
+}
+
+@media screen and (max-width: 1000px) {
+  .description-div {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    padding-left: 75px;
+    padding-right: 75px;
+    bottom: 300px;
+    top: 0;
+}
+
+  .description-img {
+    position: relative;
+    top: 230px;
+    right: 50px;
+  }
+  .description-btn {
+    position: absolute;
+    top: 950px;
+    left: 180px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .img-float {float: right;}
+}
+
+/* @media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+} */
+
+.description {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #fafafa;
+}
+
+.description-h1 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #fafafa;
+  font-size: 4.5rem;
+}
+
+.description-p {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  color: #ddeedf;
+}
+
+.btn-outline-light {
+  color: #fff;
+  background-color: #4ef037;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* =================================== Contact Me Page ================================================================ */
+body{
+		background-color: #25274d;
+	}
+	.contact{
+		padding: 4%;
+		height: 400px;
+	}
+	.col-md-3{
+		background: #ff9b00;
+		padding: 4%;
+		border-top-left-radius: 0.5rem;
+		border-bottom-left-radius: 0.5rem;
+	}
+	.contact-info{
+		margin-top:10%;
+	}
+	.contact-info img{
+		margin-bottom: 15%;
+	}
+	.contact-info h2{
+		margin-bottom: 10%;
+	}
+	.col-md-9{
+		background: #fff;
+		padding: 3%;
+		border-top-right-radius: 0.5rem;
+		border-bottom-right-radius: 0.5rem;
+	}
+	.contact-form label{
+		font-weight:600;
+	}
+	.contact-form button{
+		background: #25274d;
+		color: #fff;
+		font-weight: 600;
+		width: 25%;
+	}
+	.contact-form button:focus{
+		box-shadow:none;
+	}
+
+/* ============================================== Profile =========================================================================== */
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+/* @media (min-width: 1200px) */
+.container2 {
+    max-width: 725px;
+    max-height: 500px;
+}
+
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+
+/* ====================================== ABOUT ME ======================================================================== */
+.profile-info-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.profile-info-list > li.title {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: #8a8a8f;
+    padding: 0 0 0.3125rem;
+}
+.profile-info-list > li + li.title {
+    padding-top: 1.5625rem;
+}
+.profile-info-list > li {
+    padding: 0.625rem 0;
+}
+.profile-info-list > li .field {
+    font-weight: 700;
+}
+.profile-info-list > li .value {
+    color: #666;
+}
+.profile-info-list > li.img-list a {
+    display: inline-block;
+}
+.profile-info-list > li.img-list a img {
+    max-width: 2.25rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    border-radius: 2.5rem;
+}
+.coming-soon-cover img,
+.email-detail-attachment .email-attachment .document-file img,
+.email-sender-img img,
+.friend-list .friend-img img,
+.profile-header-img img {
+    max-width: 100%;
+}
+.table.table-profile th {
+    border: none;
+    color: #000;
+    padding-bottom: 0.3125rem;
+    padding-top: 0;
+}
+.table.table-profile td {
+    border-color: #c8c7cc;
+}
+.table.table-profile tbody + thead > tr > th {
+    padding-top: 1.5625rem;
+}
+.table.table-profile .field {
+    color: #666;
+    font-weight: 600;
+    width: 25%;
+    text-align: left;
+}
+.table.table-profile .value {
+    font-weight: 500;
+}
+.profile-header {
+    position: relative;
+    overflow: hidden;
+}
+.profile-header .profile-header-cover {
+    background: url(https://bootdey.com/img/Content/bg1.jpg) center no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.profile-header .profile-header-cover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.85) 100%);
+}
+.profile-header .profile-header-content,
+.profile-header .profile-header-tab,
+.profile-header-img,
+body .fc-icon {
+    position: relative;
+}
+.profile-header .profile-header-tab {
+    background: #fff;
+    list-style-type: none;
+    margin: -1.25rem 0 0;
+    padding: 0 0 0 8.75rem;
+    border-bottom: 1px solid #c8c7cc;
+    white-space: nowrap;
+}
+.profile-header .profile-header-tab > li {
+    display: inline-block;
+    margin: 0;
+}
+.profile-header .profile-header-tab > li > a {
+    display: block;
+    color: #000;
+    line-height: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.75rem;
+    border: none;
+}
+.profile-header .profile-header-tab > li.active > a,
+.profile-header .profile-header-tab > li > a.active {
+    color: #007aff;
+}
+.profile-header .profile-header-content:after,
+.profile-header .profile-header-content:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.profile-header .profile-header-content {
+    color: #fff;
+    padding: 1.25rem;
+}
+body .fc th a,
+body .fc-ltr .fc-basic-view .fc-day-top .fc-day-number,
+body .fc-widget-header a {
+    color: #000;
+}
+.profile-header-img {
+    float: left;
+    width: 7.5rem;
+    height: 7.5rem;
+    overflow: hidden;
+    z-index: 10;
+    margin: 0 1.25rem -1.25rem 0;
+    padding: 0.1875rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background: #fff;
+}
+.profile-header-info h4 {
+    font-weight: 500;
+    margin-bottom: 0.3125rem;
+}
+.profile-container {
+    padding: 1.5625rem;
+}
+@media (max-width: 967px) {
+    .profile-header-img {
+        width: 5.625rem;
+        height: 5.625rem;
+        margin: 0;
+    }
+    .profile-header-info {
+        margin-left: 6.5625rem;
+        padding-bottom: 0.9375rem;
+    }
+    .profile-header .profile-header-tab {
+        padding-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    .profile-header .profile-header-cover {
+        background-position: top;
+    }
+    .profile-header-img {
+        width: 3.75rem;
+        height: 3.75rem;
+        margin: 0;
+    }
+    .profile-header-info {
+        margin-left: 4.6875rem;
+        padding-bottom: 0.9375rem;
+    }
+    .profile-header-info h4 {
+        margin: 0 0 0.3125rem;
+    }
+    .profile-header .profile-header-tab {
+        white-space: nowrap;
+        overflow: scroll;
+        padding: 0;
+    }
+    .profile-container {
+        padding: 0.9375rem 0.9375rem 3.6875rem;
+    }
+    .friend-list > li {
+        float: none;
+        width: auto;
+    }
+}
+.profile-info-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.profile-info-list > li.title {
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: #8a8a8f;
+    padding: 0 0 0.3125rem;
+}
+.profile-info-list > li + li.title {
+    padding-top: 1.5625rem;
+}
+.profile-info-list > li {
+    padding: 0.625rem 0;
+}
+.profile-info-list > li .field {
+    font-weight: 700;
+}
+.profile-info-list > li .value {
+    color: #666;
+}
+.profile-info-list > li.img-list a {
+    display: inline-block;
+}
+.profile-info-list > li.img-list a img {
+    max-width: 2.25rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    border-radius: 2.5rem;
+}
+.coming-soon-cover img,
+.email-detail-attachment .email-attachment .document-file img,
+.email-sender-img img,
+.friend-list .friend-img img,
+.profile-header-img img {
+    max-width: 100%;
+}
+.table.table-profile th {
+    border: none;
+    color: #000;
+    padding-bottom: 0.3125rem;
+    padding-top: 0;
+}
+.table.table-profile td {
+    border-color: #c8c7cc;
+}
+.table.table-profile tbody + thead > tr > th {
+    padding-top: 1.5625rem;
+}
+
+.table.table-profile .value {
+    font-weight: 500;
+}
